@@ -42,12 +42,12 @@ img {
   /* For IE8 and earlier */
 }
 .me {
-  width: 250px;
-  height: 250px;
-  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
   border-width: 5px;
   border-style: solid;
-  border-color: gray;
+  border-color: white;
   transform: rotate(90deg);
 }
 .displayed {
@@ -80,8 +80,17 @@ img {
   padding-bottom: 10%;
   color: #fff;
   background-color: #0a0a0a;
-  url('http://36.media.tumblr.com/fd589d2e19d8e4e1e70aeb5fed400e27/tumblr_nwohxrdPRs1tuy5mao1_1280.jpg') no-repeat center center fixed;
+  background:
+  url('http://36.media.tumblr.com/fd589d2e19d8e4e1e70aeb5fed400e27/tumblr_nwohxrdPRs1tuy5mao1_1280.jpg');
+/*url('http://36.media.tumblr.com/fd589d2e19d8e4e1e70aeb5fed400e27/tumblr_nwohxrdPRs1tuy5mao1_1280.jpg') no-repeat center center fixed;*/
 }
+.home h1 {
+  color: red;
+}
+.home h2 {
+  color: red;
+}
+
 .experience {
   min-height: 100vh;
   padding-top: 10%;
