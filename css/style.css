@@ -114,9 +114,21 @@ img {
   min-height: 10vh;
   padding-top: 5%;
   padding-bottom: 5%;
-  color: #fff;
-  background-color: #ff9800;
+  color: #0a0a0a;
+  background-color: #ffffff;
 }
+
+.portfolio h2 {
+  text-align: center;
+}
+.portfolio h3 {
+  font-size: xx-large;
+}
+
+.portfolio p {
+  text-align: left;
+}
+
 .contact {
   min-height: 90vh;
   padding-top: 5%;
