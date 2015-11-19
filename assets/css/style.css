@@ -48,6 +48,7 @@ img {
   border-width: 5px;
   border-style: solid;
   border-color: gray;
+  transform: rotate(90deg);
 }
 .displayed {
   display: block;
