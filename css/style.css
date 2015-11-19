@@ -75,21 +75,22 @@ img {
 }
 .home {
   position: relative;
-  min-height: 100vh;
-  padding-top: 10%;
+  min-height: 55vh;
+  padding-top: 5%;
   padding-bottom: 10%;
   color: #fff;
   background-color: #0a0a0a;
   background:
-  url('http://36.media.tumblr.com/fd589d2e19d8e4e1e70aeb5fed400e27/tumblr_nwohxrdPRs1tuy5mao1_1280.jpg');
+  url('https://amazingpict.com/wp-content/uploads/2015/01/city-at-night-tumblr.jpg');
+  background-size: 110%;
 /*url('http://36.media.tumblr.com/fd589d2e19d8e4e1e70aeb5fed400e27/tumblr_nwohxrdPRs1tuy5mao1_1280.jpg') no-repeat center center fixed;*/
 }
-.home h1 {
-  color: red;
+.home h1 h2{
+  color: white;
+  border-width: 5px;
+  border-color: black;
 }
-.home h2 {
-  color: red;
-}
+
 
 .experience {
   min-height: 100vh;
