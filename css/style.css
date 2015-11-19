@@ -4,7 +4,7 @@ body {
 }
 footer {
   background-color: black;
-  color: gray;
+  color: white;
   line-height: 20px;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -78,16 +78,12 @@ img {
   padding-right: 10%;
 }
 .home {
-
-  /*position: relative;*/
   min-height: 55vh;
   padding-top: 5%;
   padding-bottom: 5%;
   color: #fff;
   background-color: #0a0a0a;
-  /*background: url('https://45.media.tumblr.com/b675b3a0ef22d7f0eb2c2bf161ef6b53/tumblr_nw6zwlmkgE1uocsx1o1_540.gif');*/
-  /*background-size: 100%;*/
-  background:  url(https://45.media.tumblr.com/b675b3a0ef22d7f0eb2c2bf161ef6b53/tumblr_nw6zwlmkgE1uocsx1o1_540.gif) no-repeat center center fixed;
+  background:  url(https://45.media.tumblr.com/b8e64a425c8210c0c524806687aa5fb6/tumblr_nt0mg5q29j1u3umtco1_500.gif) no-repeat center center fixed;
   background-size: cover;
 }
 .home h1 h2{
@@ -101,7 +97,7 @@ img {
   padding-top: 5%;
   padding-bottom: 5%;
   color: #0a0a0a;
-  background-color: #ffffff;
+  background-color: lightblue;
 }
 .about .row {
   margin-top: 20px;
@@ -130,17 +126,4 @@ img {
 
 .portfolio p {
   text-align: left;
-}
-
-.contact {
-  min-height: 90vh;
-  padding-top: 5%;
-  padding-bottom: 50px;
-  color: #fff;
-  background-color: #00bcd4;
-}
-.contact-info {
-  max-width: 100vh;
-  min-height: 60vh;
-  margin: auto;
 }
