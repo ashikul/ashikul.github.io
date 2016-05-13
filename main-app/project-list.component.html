@@ -1,34 +1,64 @@
 <div>
-    <table class="table">
-        <tr>
-            <th>Title</th>
-            <th>Length</th>
-            <th>Rating</th>
-            <th></th>
-        </tr>
-        <tr ng-repeat="project in vm.projects">
-            <td>{{project.title}}</td>
-            <td>{{project.description}}</td>
-            <!--<td>-->
-                <!--<project-rating value="project.rating" max="5" set-rating="vm.setRating(project, value)">-->
-                <!--</project-rating>-->
-            <!--</td>-->
-            <!--<td>-->
 
-                <!--<button class="btn btn-default" ng-click="vm.upRating(project)">-->
-                    <!--<span class="glyphicon glyphicon-plus"> </span>-->
-                <!--</button>-->
-                <!--<button class="btn btn-default" ng-click="vm.downRating(project)">-->
-                    <!--<span class="glyphicon glyphicon-minus"></span>-->
-                <!--</button>-->
-                <!--<a class="btn btn-default" ng-link="['Details', { id:project.id }, 'Overview']">-->
-                    <!--<span class="glyphicon glyphicon-zoom-in"></span>-->
-                <!--</a>-->
-                <!--<button class="btn btn-default" ng-click="vm.goTo(project.id)">-->
-                    <!--<span class="glyphicon glyphicon-zoom-in"></span>-->
-                <!--</button>-->
-            <!--</td>-->
-        </tr>
+
+
+
+
+
+
+
+
+    <div ng-repeat="project in vm.projects">
+        <div class="row PortfolioRow">
+            <div class="col-md-4 col-sm-4">
+                <!--<img src={{project.img}}>-->
+                <a ng-href='{{project.link}}' target="_blank">
+                <img ng-src='{{project.img}}' class="portfolioImage">
+                    </a>
+            </div>
+            <div class="col-md-8 col-sm-4">
+                <a ng-href='{{project.link}}' target="_blank">
+                <h5>{{project.title}}</h5>
+                </a>
+                <h6>{{project.description}}</h6>
+            </div>
+        </div>
+
+
+
+
+
+    <!--<table class="table">-->
+        <!--<tr>-->
+            <!--<th>Title</th>-->
+            <!--<th>Length</th>-->
+            <!--<th>Rating</th>-->
+            <!--<th></th>-->
+        <!--</tr>-->
+        <!--<tr ng-repeat="project in vm.projects">-->
+            <!--<td>{{project}}</td>-->
+            <!--<td>{{project.title}}</td>-->
+            <!--<td>{{project.description}}</td>-->
+            <!--&lt;!&ndash;<td>&ndash;&gt;-->
+                <!--&lt;!&ndash;<project-rating value="project.rating" max="5" set-rating="vm.setRating(project, value)">&ndash;&gt;-->
+                <!--&lt;!&ndash;</project-rating>&ndash;&gt;-->
+            <!--&lt;!&ndash;</td>&ndash;&gt;-->
+            <!--&lt;!&ndash;<td>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.upRating(project)">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-plus"> </span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.downRating(project)">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-minus"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                <!--&lt;!&ndash;<a class="btn btn-default" ng-link="['Details', { id:project.id }, 'Overview']">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-zoom-in"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.goTo(project.id)">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-zoom-in"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;</td>&ndash;&gt;-->
+        <!--</tr>-->
     </table>
 
 </div>
