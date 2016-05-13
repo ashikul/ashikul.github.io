@@ -25,14 +25,14 @@ var projects = [
         "link": "http://ashikul.github.io/harlemkaribe/",
         "img": "images/harlemkaribe.jpg",
         "description": "Caribbean Resturant Website Design",
-        "tech": "HTML5, CSS3, JQuery"
+        "tech": "Bootstrap, HTML5, CSS3, JQuery"
     },
     {
         "title": "Secret Quotes",
         "link": "http://ashikul.github.io/secretquotes/",
         "img": "images/secretquotes.jpg",
         "description": "Change your perspective, change your experience",
-        "tech": "JQuery"
+        "tech": "Bootstrap, JQuery"
     },
     {
         "title": "Pomodoro Timer",
