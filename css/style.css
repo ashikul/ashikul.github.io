@@ -88,3 +88,6 @@ body {
 .portfolioRow{
     margin-bottom: 30px;
 }
+.portfolioTechText {
+    color: silver;
+}

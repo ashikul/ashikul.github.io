@@ -9,7 +9,7 @@
 
 
     <div ng-repeat="project in vm.projects">
-        <div class="row PortfolioRow">
+        <div class="row portfolioRow">
             <div class="col-md-4 col-sm-4">
                 <!--<img src={{project.img}}>-->
                 <a ng-href='{{project.link}}' target="_blank">
@@ -21,6 +21,7 @@
                 <h5>{{project.title}}</h5>
                 </a>
                 <h6>{{project.description}}</h6>
+                <h6 class="portfolioTechText">{{project.tech}}</h6>
             </div>
         </div>
 
