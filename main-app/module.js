@@ -12,7 +12,7 @@
      });
      */
 
-    var module = angular.module("main-app", []);
+    var module = angular.module("main-app", ['infinite-scroll']);
     //module.value("$routerRootComponent", "movieApp");
 
 }());

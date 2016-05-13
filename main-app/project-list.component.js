@@ -11,10 +11,34 @@
     //                });
     //}
 
-    function controller($http) {
+    function controller($http, $scope) {
 
         var vm = this;
-        vm.projects = projects;
+        projects.reverse();
+        vm.loadMore = loadMore;
+        vm.count = 4;
+        vm.projects = [];
+        //vm.projects = projects;
+        vm.projects.push(projects.pop());
+        vm.projects.push(projects.pop());
+        vm.projects.push(projects.pop());
+
+
+        function loadMore() {
+            //var last = vm.projects[vm.projects.length - 1];
+            //for(var i = 1; i <= 2; i++) {
+            //    vm.projects.push(last + i);
+            //}
+
+
+            if(projects.length) {
+                vm.projects.push(projects.pop());
+                console.log(projects.length);
+            } else {
+                return;
+            }
+        };
+
 
         //vm.$onInit = function() {
         //    fetchProjects($http).then(function(projects) {
@@ -29,9 +53,6 @@
     }
 
     module.component("projectList", {
-        //bindings: {
-        //    "$router": "<"
-        //},
         templateUrl: "main-app/project-list.component.html",
         controllerAs: "vm",
         controller: ["$http", controller]

@@ -51,12 +51,12 @@ body {
     font-size: 1.5rem;
 }
 
-/* Supporting marketing content */
+/* Supporting m arketing content */
 .marketing {
-    margin: 3rem 0;
+    margin: 1rem 0;
 }
 .marketing p + h4 {
-    margin-top: 1.5rem;
+    margin-top: .3rem;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -90,4 +90,7 @@ body {
 }
 .portfolioTechText {
     color: silver;
+}
+.footerText {
+    margin-left: 50px;
 }

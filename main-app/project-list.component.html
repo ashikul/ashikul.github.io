@@ -1,14 +1,15 @@
-<div>
+<div class="container">
 
 
 
 
 
 
+    <p ng-if="!vm.projects">Loading...</p>
 
 
-
-    <div ng-repeat="project in vm.projects">
+    <div infinite-scroll='vm.loadMore()' infinite-scroll-distance='1'>
+    <div ng-repeat="project in vm.projects track by $index" >
         <div class="row portfolioRow">
             <div class="col-md-4 col-sm-4">
                 <!--<img src={{project.img}}>-->
@@ -23,43 +24,13 @@
                 <h6>{{project.description}}</h6>
                 <h6 class="portfolioTechText">{{project.tech}}</h6>
             </div>
+
         </div>
+    </div>
+    </div>
 
 
 
 
-
-    <!--<table class="table">-->
-        <!--<tr>-->
-            <!--<th>Title</th>-->
-            <!--<th>Length</th>-->
-            <!--<th>Rating</th>-->
-            <!--<th></th>-->
-        <!--</tr>-->
-        <!--<tr ng-repeat="project in vm.projects">-->
-            <!--<td>{{project}}</td>-->
-            <!--<td>{{project.title}}</td>-->
-            <!--<td>{{project.description}}</td>-->
-            <!--&lt;!&ndash;<td>&ndash;&gt;-->
-                <!--&lt;!&ndash;<project-rating value="project.rating" max="5" set-rating="vm.setRating(project, value)">&ndash;&gt;-->
-                <!--&lt;!&ndash;</project-rating>&ndash;&gt;-->
-            <!--&lt;!&ndash;</td>&ndash;&gt;-->
-            <!--&lt;!&ndash;<td>&ndash;&gt;-->
-
-                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.upRating(project)">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-plus"> </span>&ndash;&gt;-->
-                <!--&lt;!&ndash;</button>&ndash;&gt;-->
-                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.downRating(project)">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-minus"></span>&ndash;&gt;-->
-                <!--&lt;!&ndash;</button>&ndash;&gt;-->
-                <!--&lt;!&ndash;<a class="btn btn-default" ng-link="['Details', { id:project.id }, 'Overview']">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-zoom-in"></span>&ndash;&gt;-->
-                <!--&lt;!&ndash;</a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<button class="btn btn-default" ng-click="vm.goTo(project.id)">&ndash;&gt;-->
-                    <!--&lt;!&ndash;<span class="glyphicon glyphicon-zoom-in"></span>&ndash;&gt;-->
-                <!--&lt;!&ndash;</button>&ndash;&gt;-->
-            <!--&lt;!&ndash;</td>&ndash;&gt;-->
-        <!--</tr>-->
-    </table>
 
 </div>
