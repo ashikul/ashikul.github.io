@@ -5,14 +5,13 @@
 
 
 
-    <p ng-if="!vm.projects">Loading...</p>
+    <p ng-hide="{{vm.projects}}">Loading...</p>
 
 
     <div infinite-scroll='vm.loadMore()' infinite-scroll-distance='1'>
-    <div ng-repeat="project in vm.projects track by $index" >
+    <div ng-repeat="project in vm.projects track by $index" ng-cloak >
         <div class="row portfolioRow">
             <div class="col-md-4 col-sm-4">
-                <!--<img src={{project.img}}>-->
                 <a ng-href='{{project.link}}' target="_blank">
                 <img ng-src='{{project.img}}' class="portfolioImage">
                     </a>
