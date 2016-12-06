@@ -16,13 +16,14 @@
         var vm = this;
         projects.reverse();
         vm.loadMore = loadMore;
-        vm.count = 4;
+        vm.count = 5;
         vm.projects = [];
         //vm.projects = projects;
         vm.projects.push(projects.pop());
         vm.projects.push(projects.pop());
         vm.projects.push(projects.pop());
-
+        vm.projects.push(projects.pop());
+        vm.projects.push(projects.pop());
 
         function loadMore() {
             //var last = vm.projects[vm.projects.length - 1];
