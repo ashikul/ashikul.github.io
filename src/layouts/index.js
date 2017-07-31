@@ -5,10 +5,10 @@ import Helmet from 'react-helmet';
 
 import './index.css';
 
+
 const Header = () => (
     <div
         style={{
-            background: 'rebeccapurple',
             marginBottom: '1.45rem',
         }}
     >
@@ -22,12 +22,9 @@ const Header = () => (
             <h1 style={{margin: 0}}>
                 <Link
                     to="/"
-                    style={{
-                        color: 'white',
-                        textDecoration: 'none',
-                    }}
+                    className="section-header"
                 >
-                    Gatsby
+                    Ashikul Alam
                 </Link>
             </h1>
         </div>
@@ -39,10 +36,10 @@ const TemplateWrapper = ({
                          }) => (
     <div>
         <Helmet
-            title="Gatsby Default Starter"
+            title="Ashikul Alam Website"
             meta={[
-                {name: 'description', content: 'Sample'},
-                {name: 'keywords', content: 'sample, something'},
+                {name: 'Ashikul Alam Website', content: 'Ashikul Alam Website'},
+                {name: 'Ashikul Alam Website', content: 'Ashikul Alam Website'},
             ]}
         />
         <Header />
