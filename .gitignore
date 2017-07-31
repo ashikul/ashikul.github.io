@@ -1,9 +1,7 @@
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
-# Created by .ignore support plugin (hsz.mobi)
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+.cache/
+# Build directory
+.DS_Store
+ashikul.github.io.iml
