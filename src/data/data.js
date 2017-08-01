@@ -1,4 +1,16 @@
 module.exports = {
+    currentWork: [{
+        "title": "Symptom Checker",
+        "link": "http://symptomsbeta.webmd.com",
+        "img": require("../images/symptomchecker.png"),
+        "description": "WebMD Symptom Checker",
+    }],
+    apps: [{
+        "title": "MTG Card Viewer",
+        "link": "https://play.google.com/store/apps/details?id=ashik.project.mtg&hl=en",
+        "img": require("../images/mtg-card.png"),
+        "description": "Android Magic the Gathering Card Viewer",
+    }],
     sideProjects: [
         {
             "title": "6ixer Analytics",
