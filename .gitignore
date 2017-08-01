@@ -5,3 +5,4 @@ node_modules
 # Build directory
 .DS_Store
 ashikul.github.io.iml
+/.idea/
