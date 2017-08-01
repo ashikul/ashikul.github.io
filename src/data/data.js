@@ -43,6 +43,18 @@ module.exports = {
             "description": "A way to share video game experiences",
         },
         {
+            "title": "Scotty Scribe Beta",
+            "link": "https://notary.herokuapp.com/",
+            "img": require("../images/ScottyScribeBeta.png"),
+            "description": "Notarization app demo",
+        },
+        {
+            "title": "Count Me",
+            "link": "https://countme-41154.firebaseapp.com/#/",
+            "img": require("../images/CountMe.png"),
+            "description": "Construction project management app demo",
+        },
+        {
             "title": "Unique Brows",
             "link": "http://ashikul.github.io/UniqueBeauty/",
             "img": require("../images/uniquebrow.jpg"),
@@ -63,6 +75,7 @@ module.exports = {
             "description": "Freelance comic book website demo",
             "tech": "Bootstrap, HTML5, CSS3, JQuery, Slider Revolution"
         },
+
         {
             "title": "Chat React",
             "link": "http://Ashikul.github.io/chat-react",

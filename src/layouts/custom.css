@@ -15,24 +15,18 @@
 	display: flex;
 	max-width: 750px;
 	text-decoration: none;
-	/*border: 1px solid black;*/
 }
-
-/*.project:hover {*/
-	/*background-color: blue;*/
-/*}*/
 
 .project-image {
 	width: 200px;
 	height: 85px;
-	border:1px solid cadetblue;
+	border: 1px solid lightsteelblue;
+	border-radius: 3px;
 }
 
 .project-description {
 	color: #187aab;
-	/*text-decoration: none;*/
 	padding: 0;
-	/* margin-left: auto; */
 	margin-left: 20px;
 	padding-bottom: 20px;
 	margin-top: auto;
