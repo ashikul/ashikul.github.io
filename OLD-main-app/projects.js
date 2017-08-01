@@ -1,18 +1,18 @@
 var projects = [
-  {
-    "title": "5-Day Weather Viewer",
-    "link": "http://Ashikul.github.io/weather-viewer-react",
-    "img": "images/weatherreact.jpg",
-    "description": "Five day forecast using Openweather and Google maps API",
-    "tech": "ReactJS, Redux"
-  },
-  {
-    "title": "Four Learning Stages",
-    "link": "http://Ashikul.github.io/four-learning-stages",
-    "img": "images/fourlearningstages.jpg",
-    "description": "Learn about the 4 steps to learning anything",
-    "tech": "ReactJS, Redux"
-  },
+    {
+        "title": "5-Day Weather Viewer",
+        "link": "http://Ashikul.github.io/weather-viewer-react",
+        "img": "images/weatherreact.jpg",
+        "description": "Five day forecast using Openweather and Google maps API",
+        "tech": "ReactJS, Redux"
+    },
+    {
+        "title": "Four Learning Stages",
+        "link": "http://Ashikul.github.io/four-learning-stages",
+        "img": "images/fourlearningstages.jpg",
+        "description": "Learn about the 4 steps to learning anything",
+        "tech": "ReactJS, Redux"
+    },
     {
         "title": "Youtube Viewer",
         "link": "http://Ashikul.github.io/youtube-viewer-react",
@@ -48,13 +48,13 @@ var projects = [
         "description": "Caribbean Resturant Website Design",
         "tech": "Bootstrap, HTML5, CSS3, JQuery"
     },
-  {
-    "title": "Comic Banner",
-    "link": "http://ashikul.github.io/comicbanner",
-    "img": "images/comicbanner.jpg",
-    "description": "Carousel demo for a comic book website",
-    "tech": "Bootstrap, HTML5, CSS3, JQuery, Slider Revolution"
-  },
+    {
+        "title": "Comic Banner",
+        "link": "http://ashikul.github.io/comicbanner",
+        "img": "images/comicbanner.jpg",
+        "description": "Carousel demo for a comic book website",
+        "tech": "Bootstrap, HTML5, CSS3, JQuery, Slider Revolution"
+    },
     {
         "title": "Secret Quotes",
         "link": "http://ashikul.github.io/secretquotes/",

@@ -1,11 +1,40 @@
-.section-header{
-  color: black;
-  font-weight: 300;
-  text-decoration: none;
+.section-header {
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
 }
-.section{
-  max-width: 400px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid lightgray;
-  font-weight: 300;
+
+.section {
+	max-width: 400px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgray;
+	font-weight: 300;
+}
+
+.project {
+	display: flex;
+	max-width: 750px;
+	text-decoration: none;
+	/*border: 1px solid black;*/
+}
+
+/*.project:hover {*/
+	/*background-color: blue;*/
+/*}*/
+
+.project-image {
+	width: 200px;
+	height: 85px;
+	border:1px solid cadetblue;
+}
+
+.project-description {
+	color: #187aab;
+	/*text-decoration: none;*/
+	padding: 0;
+	/* margin-left: auto; */
+	margin-left: 20px;
+	padding-bottom: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
