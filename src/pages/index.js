@@ -8,7 +8,7 @@ var currentWorkList = data.currentWork;
 
 const IndexPage = () => (
     <div>
-        <h2 className="section">Current Work</h2>
+        {/* <h2 className="section">Current Work</h2>
 
         {currentWorkList.map((project) => {
             return (<div key={project.title}>
@@ -28,10 +28,10 @@ const IndexPage = () => (
                     <div className="project-description">{project.description}</div>
                 </a >
             </div>);
-        })}
+        })} */}
 
 
-        <h2 className="section">Side Projects</h2>
+        <h2 className="section">Projects</h2>
 
         {sideProjectsList.map((project) => {
             return (<div key={project.title}>

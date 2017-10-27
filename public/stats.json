@@ -1,36 +1,44 @@
 {
   "assetsByChunkName": {
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-1e7abc8cea06de42cd13.js",
-      "page-component---src-pages-index-js-1e7abc8cea06de42cd13.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e19aef04b901bcd52f16.js",
+      "component---src-pages-index-js-e19aef04b901bcd52f16.js.map"
     ],
-    "page-component---src-pages-404-js": [
-      "page-component---src-pages-404-js-ccb8a22767abe4e7d03a.js",
-      "page-component---src-pages-404-js-ccb8a22767abe4e7d03a.js.map"
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-c1c03b7354203356f8af.js",
+      "component---src-layouts-index-js-c1c03b7354203356f8af.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-12dd74fecaf53e2e60e9.js",
+      "component---src-pages-404-js-12dd74fecaf53e2e60e9.js.map"
+    ],
     "commons": [
-      "commons-a706efda9882e3aecc8c.js",
-      "commons-a706efda9882e3aecc8c.js.map"
+      "commons-da587e1df5d1731ee55d.js",
+      "build-js-styles.css",
+      "commons-da587e1df5d1731ee55d.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-560a068c547c9974b131.js",
-      "app-560a068c547c9974b131.js.map"
+      "app-2d1de9897a3e931c8cb6.js",
+      "build-js-styles.css",
+      "app-2d1de9897a3e931c8cb6.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "layout-component---index": [
-      "layout-component---index-bc5583752e337b7f1bb1.js",
-      "layout-component---index-bc5583752e337b7f1bb1.js.map"
     ]
   }
 }
