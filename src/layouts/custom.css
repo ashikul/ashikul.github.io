@@ -18,10 +18,10 @@
 }
 
 .project-image {
-	width: 200px;
-	height: 85px;
+	width: 130px;
+	height: 70px;
 	border: 1px solid lightsteelblue;
-	border-radius: 3px;
+	/* border-radius: 3px; */
 }
 
 .project-description {

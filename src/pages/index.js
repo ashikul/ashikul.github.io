@@ -4,7 +4,9 @@ import data from '../data/data';
 
 var sideProjectsList = data.sideProjects;
 var appsList = data.apps;
-var currentWorkList = data.currentWork;
+var hackathonList = data.hackathon;
+var freelanceList = data.freelance;
+// var currentWorkList = data.currentWork;
 
 const IndexPage = () => (
     <div>
@@ -31,9 +33,9 @@ const IndexPage = () => (
         })} */}
 
 
-        <h2 className="section">Projects</h2>
+        <h2 className="section">Apps</h2>
 
-        {sideProjectsList.map((project) => {
+        {appsList.map((project) => {
             return (<div key={project.title}>
                 <a className="project" href={project.link} target="_blank">
                     <img className="project-image" src={project.img} alt="Project Image"/>
@@ -41,6 +43,42 @@ const IndexPage = () => (
                 </a >
             </div>);
         })}
+
+
+        <h2 className="section">Hackathon Projects</h2>
+
+        {hackathonList.map((project) => {
+            return (<div key={project.title}>
+                <a className="project" href={project.link} target="_blank">
+                    <img className="project-image" src={project.img} alt="Project Image" />
+                    <div className="project-description">{project.description}</div>
+                </a >
+            </div>);
+        })}
+
+        <h2 className="section">Freelance</h2>
+
+        {freelanceList.map((project) => {
+            return (<div key={project.title}>
+                <a className="project" href={project.link} target="_blank">
+                    <img className="project-image" src={project.img} alt="Project Image" />
+                    <div className="project-description">{project.description}</div>
+                </a >
+            </div>);
+        })}
+
+        <h2 className="section">Other Projects</h2>
+
+        {sideProjectsList.map((project) => {
+            return (<div key={project.title}>
+                <a className="project" href={project.link} target="_blank">
+                    <img className="project-image" src={project.img} alt="Project Image" />
+                    <div className="project-description">{project.description}</div>
+                </a >
+            </div>);
+        })}
+
+
 
 
     </div>
