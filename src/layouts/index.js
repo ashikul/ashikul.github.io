@@ -38,7 +38,12 @@ const TemplateWrapper = ({
             title="Ashikul Alam Website"
             meta={[
                 {name: 'Ashikul Alam Website', content: 'Ashikul Alam Website'},
-                {name: 'Ashikul Alam Website', content: 'Ashikul Alam Website'},
+                {name: 'description', content: 'Ashikul Alam Front end developer porfolio website'},
+                {
+                	name: 'keywords',
+                	content: 'HTML,CSS,XML,JavaScript,Front-end,Developer,Web,Ashik,Ashikul,Alam,Ashikul Alam'
+                },
+                {name: 'author', content: 'Ashikul Alam'}
             ]}
         />
         <Header />

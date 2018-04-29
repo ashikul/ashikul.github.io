@@ -36,35 +36,34 @@ const IndexPage = () => (
         <h2 className="section">Apps</h2>
 
         {appsList.map((project) => {
-            return (<div key={project.title}>
+            return (<h4 key={project.title}>
                 <a className="project" href={project.link} target="_blank">
                     <img className="project-image" src={project.img} alt="Project Image"/>
                     <div className="project-description">{project.description}</div>
                 </a >
-            </div>);
+            </h4>);
         })}
-
 
         <h2 className="section">Hackathon Projects</h2>
 
         {hackathonList.map((project) => {
-            return (<div key={project.title}>
+            return (<h4 key={project.title}>
                 <a className="project" href={project.link} target="_blank">
                     <img className="project-image" src={project.img} alt="Project Image" />
                     <div className="project-description">{project.description}</div>
                 </a >
-            </div>);
+            </h4>);
         })}
 
         <h2 className="section">Freelance</h2>
 
         {freelanceList.map((project) => {
-            return (<div key={project.title}>
+            return (<h4 key={project.title}>
                 <a className="project" href={project.link} target="_blank">
                     <img className="project-image" src={project.img} alt="Project Image" />
                     <div className="project-description">{project.description}</div>
                 </a >
-            </div>);
+            </h4>);
         })}
 
     
