@@ -67,16 +67,7 @@ const IndexPage = () => (
             </div>);
         })}
 
-        <h2 className="section">Other Projects</h2>
-
-        {sideProjectsList.map((project) => {
-            return (<div key={project.title}>
-                <a className="project" href={project.link} target="_blank">
-                    <img className="project-image" src={project.img} alt="Project Image" />
-                    <div className="project-description">{project.description}</div>
-                </a >
-            </div>);
-        })}
+    
 
 
 
@@ -85,3 +76,16 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+    //REMOVED
+    // < h2 className = "section" > Other Projects</h2 >
+    //     {
+    //         sideProjectsList.map((project) => {
+    //             return (<div key={project.title}>
+    //                 <a className="project" href={project.link} target="_blank">
+    //                     <img className="project-image" src={project.img} alt="Project Image" />
+    //                     <div className="project-description">{project.description}</div>
+    //                 </a >
+    //             </div>);
+    //         })
+    //     }
